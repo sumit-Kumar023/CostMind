@@ -1,0 +1,7 @@
+# 1. Backend(Start the API) : uvicorn app.main:app --reload --port 8000
+# 2. Frontend(Dashboard) : streamlit run dashboard/app.py
+# 3. Docker (downloading image : for first time) : docker compose up -d
+# 4. Benchmark : 
+# python -m benchmarks.run_benchmark --limit 60 --yes     # cheap trial, about $0.30
+# python -m benchmarks.run_benchmark --judge --sweep      # full run, about $2-3, 10-15 min, asks before spending
+

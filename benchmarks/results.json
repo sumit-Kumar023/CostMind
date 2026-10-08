@@ -1,0 +1,1986 @@
+{
+ "mock": false,
+ "n_queries": 320,
+ "models": {
+  "cheap": "gpt-4o-mini",
+  "mid": "gpt-4o-mini",
+  "premium": "gpt-4o"
+ },
+ "config": {
+  "confidence_threshold": 0.75,
+  "cache_similarity_threshold": 0.92,
+  "memory_answer_threshold": 0.3,
+  "short_term_window": 6
+ },
+ "metrics": {
+  "X_cost_reduction_pct": 83.2,
+  "Y_prompt_token_reduction_pct": 63.4,
+  "Z_llm_calls_avoided_pct": 17.8
+ },
+ "baseline": {
+  "cost_usd": 1.26997,
+  "prompt_tokens": 567088,
+  "completion_tokens": 41833,
+  "avg_latency_ms": 2130.4,
+  "recall_acc_pct": 100.0,
+  "breakdown": {}
+ },
+ "costmind": {
+  "cost_usd": 0.213497,
+  "prompt_tokens": 207398,
+  "completion_tokens": 39231,
+  "avg_latency_ms": 3700.2,
+  "recall_acc_pct": 83.3,
+  "breakdown": {
+   "chat_cost_usd": 0.204615,
+   "maintenance_cost_usd": 0.008685,
+   "embedding_cost_usd": 0.000197,
+   "chat_prompt_tokens": 170160,
+   "maintenance_prompt_tokens": 37238,
+   "extractions_skipped": 233,
+   "compressions": 59
+  },
+  "by_route": {
+   "llm": 263,
+   "cache": 39,
+   "memory": 18
+  },
+  "by_model": {
+   "gpt-4o-mini": 235,
+   "gpt-4o": 28,
+   "cache": 39,
+   "memory": 18
+  },
+  "escalation_rate_pct": 1.1
+ },
+ "per_query": [
+  {
+   "id": 0,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 1,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 2,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 3,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 4,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 5,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 6,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 7,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 8,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 9,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 10,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 11,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 12,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 13,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 14,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 15,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 16,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 17,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 18,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 19,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 20,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 21,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 22,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 23,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 24,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 25,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 26,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 27,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 28,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 29,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 30,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 31,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 32,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 33,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 34,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 35,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 36,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 37,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 38,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 39,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 40,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 41,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 42,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 43,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 44,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 45,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 46,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 47,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 48,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 49,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 50,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 51,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 52,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 53,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 54,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 55,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 56,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 57,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 58,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 59,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 60,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 61,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 62,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 63,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 64,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 65,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 66,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 67,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 68,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 69,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 70,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 71,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 72,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 73,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 74,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 75,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 76,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 77,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 78,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 79,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 80,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 81,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 82,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 83,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 84,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 85,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 86,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 87,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 88,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 89,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 90,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 91,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 92,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 93,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 94,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 95,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 96,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 97,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 98,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 99,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 100,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 101,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 102,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 103,
+   "kind": "fact",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 104,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 105,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 106,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 107,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 108,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 109,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 110,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 111,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 112,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 113,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 114,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 115,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 116,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 117,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 118,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 119,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 120,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 121,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 122,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 123,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 124,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 125,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 126,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 127,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 128,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 129,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 130,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 131,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 132,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 133,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 134,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 135,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 136,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 137,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 138,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 139,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 140,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 141,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 142,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 143,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 144,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 145,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 146,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 147,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 148,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 149,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 150,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 151,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 152,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 153,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 154,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 155,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 156,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 157,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 158,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 159,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 160,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 161,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 162,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 163,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 164,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 165,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 166,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 167,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 168,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 169,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 170,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 171,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 172,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 173,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 174,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 175,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 176,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "cache"
+  },
+  {
+   "id": 177,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 178,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 179,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 180,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 181,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 182,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "cache"
+  },
+  {
+   "id": 183,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 184,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 185,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 186,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 187,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 188,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 189,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 190,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 191,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 192,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 193,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 194,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 195,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 196,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "cache"
+  },
+  {
+   "id": 197,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 198,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 199,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 200,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 201,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 202,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 203,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 204,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 205,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 206,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 207,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 208,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 209,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 210,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 211,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 212,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 213,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 214,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 215,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 216,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 217,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "cache"
+  },
+  {
+   "id": 218,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 219,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 220,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 221,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 222,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 223,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 224,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "cache"
+  },
+  {
+   "id": 225,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 226,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 227,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 228,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 229,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 230,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 231,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 232,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 233,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 234,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 235,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 236,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 237,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 238,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 239,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 240,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 241,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 242,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 243,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 244,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 245,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "cache"
+  },
+  {
+   "id": 246,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 247,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 248,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 249,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 250,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 251,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 252,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 253,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 254,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 255,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 256,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 257,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 258,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 259,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "cache"
+  },
+  {
+   "id": 260,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 261,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 262,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 263,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 264,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 265,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 266,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 267,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 268,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 269,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 270,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 271,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 272,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 273,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 274,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 275,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 276,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 277,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 278,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 279,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 280,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 281,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 282,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "cache"
+  },
+  {
+   "id": 283,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 284,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 285,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 286,
+   "kind": "fresh",
+   "complexity": "complex",
+   "route": "llm"
+  },
+  {
+   "id": 287,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 288,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 289,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "cache"
+  },
+  {
+   "id": 290,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 291,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 292,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 293,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 294,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 295,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 296,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 297,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 298,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 299,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 300,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 301,
+   "kind": "dup",
+   "complexity": "complex",
+   "route": "cache"
+  },
+  {
+   "id": 302,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 303,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 304,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 305,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 306,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 307,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 308,
+   "kind": "recall",
+   "complexity": "simple",
+   "route": "memory"
+  },
+  {
+   "id": 309,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 310,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 311,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 312,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 313,
+   "kind": "dup",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 314,
+   "kind": "fresh",
+   "complexity": "medium",
+   "route": "llm"
+  },
+  {
+   "id": 315,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 316,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "cache"
+  },
+  {
+   "id": 317,
+   "kind": "fresh",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 318,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  },
+  {
+   "id": 319,
+   "kind": "dup",
+   "complexity": "simple",
+   "route": "llm"
+  }
+ ],
+ "quality": {
+  "judged": 60,
+  "failed": 0,
+  "baseline_mean": 4.7,
+  "costmind_mean": 4.7,
+  "quality_retained_pct": 100.0,
+  "costmind_at_least_as_good_pct": 70.0
+ }
+}

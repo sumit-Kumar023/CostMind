@@ -1,0 +1,2266 @@
+[
+ {
+  "user_id": "p5",
+  "message": "I love cooking.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 0
+ },
+ {
+  "message": "Design the architecture for tabular churn prediction using gradient boosting or deep learning, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 1
+ },
+ {
+  "message": "What does CPU stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 2
+ },
+ {
+  "message": "Write a short explanation of DNS and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 3
+ },
+ {
+  "message": "How many hours are in a day?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 4
+ },
+ {
+  "message": "What is the capital of Canada?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 5
+ },
+ {
+  "message": "What does API stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 6
+ },
+ {
+  "user_id": "p7",
+  "message": "I am allergic to soy.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 7
+ },
+ {
+  "message": "Design the architecture for a session store using Redis or Memcached, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u08",
+  "id": 8
+ },
+ {
+  "message": "Summarize microservices and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 9
+ },
+ {
+  "message": "Summarize OAuth and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 10
+ },
+ {
+  "message": "Summarize version control and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 11
+ },
+ {
+  "message": "Write a short explanation of SQL joins and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p7",
+  "id": 12
+ },
+ {
+  "user_id": "p1",
+  "message": "My name is Rahul.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 13
+ },
+ {
+  "message": "Compare and analyze the trade-offs of REST versus GraphQL for a mobile app backend, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u10",
+  "id": 14
+ },
+ {
+  "message": "What is the capital of Mali?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 15
+ },
+ {
+  "user_id": "p2",
+  "message": "My name is Priya.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 16
+ },
+ {
+  "message": "Design the architecture for a real-time multiplayer game using TCP or UDP, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 17
+ },
+ {
+  "message": "What is the capital of Poland?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 18
+ },
+ {
+  "message": "Summarize the Doppler effect and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 19
+ },
+ {
+  "user_id": "p8",
+  "message": "My name is Anjali.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 20
+ },
+ {
+  "message": "Define the water cycle in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 21
+ },
+ {
+  "message": "Is 61 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 22
+ },
+ {
+  "message": "Please design the architecture for a session store using Redis or Memcached, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "p4",
+  "id": 23
+ },
+ {
+  "message": "Define photosynthesis in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 24
+ },
+ {
+  "user_id": "p2",
+  "message": "I love chess.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 25
+ },
+ {
+  "message": "Write a short explanation of a REST API and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 26
+ },
+ {
+  "message": "Is 53 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 27
+ },
+ {
+  "message": "Who wrote Macbeth?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 28
+ },
+ {
+  "message": "Define a vaccine in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u08",
+  "id": 29
+ },
+ {
+  "user_id": "p6",
+  "message": "My name is Sneha.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 30
+ },
+ {
+  "message": "Define a mortgage in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 31
+ },
+ {
+  "message": "Explain photosynthesis with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 32
+ },
+ {
+  "message": "Define a prime number in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 33
+ },
+ {
+  "message": "Compare and analyze the trade-offs of React versus Vue for a large enterprise dashboard, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 34
+ },
+ {
+  "message": "What is the capital of Ghana?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 35
+ },
+ {
+  "message": "What is the capital of Nepal?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 36
+ },
+ {
+  "message": "How many months are in a decade?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 37
+ },
+ {
+  "message": "Write a short explanation of containerization and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 38
+ },
+ {
+  "user_id": "p4",
+  "message": "I love hiking.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 39
+ },
+ {
+  "message": "Explain the Doppler effect with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 40
+ },
+ {
+  "message": "Define DNA in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u05",
+  "id": 41
+ },
+ {
+  "message": "Define a neuron in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 42
+ },
+ {
+  "message": "Design the architecture for a large enterprise dashboard using React or Vue, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 43
+ },
+ {
+  "user_id": "p8",
+  "message": "I love cycling.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 44
+ },
+ {
+  "user_id": "p3",
+  "message": "My name is Amit.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 45
+ },
+ {
+  "message": "Summarize compound interest and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 46
+ },
+ {
+  "message": "Design the architecture for a five-person startup using microservices or a monolith, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 47
+ },
+ {
+  "message": "How many days are in a week?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u09",
+  "id": 48
+ },
+ {
+  "message": "Explain plate tectonics with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 49
+ },
+ {
+  "user_id": "p4",
+  "message": "My name is Neha.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 50
+ },
+ {
+  "message": "Is 21 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 51
+ },
+ {
+  "user_id": "p4",
+  "message": "I am allergic to dust.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 52
+ },
+ {
+  "message": "What is 11 times 11?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 53
+ },
+ {
+  "user_id": "p2",
+  "message": "I am allergic to shellfish.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 54
+ },
+ {
+  "message": "What is the capital of Laos?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u05",
+  "id": 55
+ },
+ {
+  "message": "Explain the TCP handshake with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 56
+ },
+ {
+  "user_id": "p1",
+  "message": "I am allergic to peanuts.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 57
+ },
+ {
+  "message": "How many minutes are in a day?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 58
+ },
+ {
+  "message": "Define blockchain in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 59
+ },
+ {
+  "user_id": "p6",
+  "message": "I am allergic to eggs.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 60
+ },
+ {
+  "message": "How many meters are in a kilometer?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 61
+ },
+ {
+  "message": "How many inches are in a foot?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 62
+ },
+ {
+  "message": "Define democracy in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 63
+ },
+ {
+  "message": "Explain public-key cryptography with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 64
+ },
+ {
+  "message": "What is the capital of Qatar?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p5",
+  "id": 65
+ },
+ {
+  "user_id": "p3",
+  "message": "I love painting.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 66
+ },
+ {
+  "message": "Explain OAuth with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 67
+ },
+ {
+  "message": "What is 12 times 13?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 68
+ },
+ {
+  "message": "Write a short explanation of load balancing and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 69
+ },
+ {
+  "message": "What is the capital of Brazil?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u08",
+  "id": 70
+ },
+ {
+  "message": "Define inflation in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 71
+ },
+ {
+  "user_id": "p8",
+  "message": "I am allergic to latex.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 72
+ },
+ {
+  "user_id": "p7",
+  "message": "I love gardening.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 73
+ },
+ {
+  "message": "How many yards are in a mile?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 74
+ },
+ {
+  "message": "Define the Renaissance in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 75
+ },
+ {
+  "message": "Explain Bayes' theorem with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 76
+ },
+ {
+  "message": "Define a recession in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 77
+ },
+ {
+  "user_id": "p1",
+  "message": "I love cricket.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 78
+ },
+ {
+  "message": "Explain compound interest with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 79
+ },
+ {
+  "message": "What is the capital of Peru?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 80
+ },
+ {
+  "message": "Explain caching with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 81
+ },
+ {
+  "message": "Who wrote Moby Dick?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 82
+ },
+ {
+  "message": "Is 51 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 83
+ },
+ {
+  "user_id": "p5",
+  "message": "My name is Karan.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 84
+ },
+ {
+  "message": "Compare and analyze the trade-offs of Kafka versus RabbitMQ for an event-driven payments system, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 85
+ },
+ {
+  "user_id": "p6",
+  "message": "I love photography.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 86
+ },
+ {
+  "message": "What does NASA stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 87
+ },
+ {
+  "message": "Who wrote 1984?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u09",
+  "id": 88
+ },
+ {
+  "message": "Define an algorithm in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 89
+ },
+ {
+  "user_id": "p5",
+  "message": "I am allergic to penicillin.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 90
+ },
+ {
+  "message": "What is 11 times 11?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 91
+ },
+ {
+  "user_id": "p3",
+  "message": "I am allergic to pollen.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 92
+ },
+ {
+  "message": "Compare and analyze the trade-offs of Kubernetes versus serverless for a bursty ML inference workload, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 93
+ },
+ {
+  "message": "What is 6 times 19?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 94
+ },
+ {
+  "message": "Write a short explanation of a hash map and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 95
+ },
+ {
+  "message": "Is 17 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 96
+ },
+ {
+  "message": "How many centimeters are in a meter?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 97
+ },
+ {
+  "message": "Define entropy in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p5",
+  "id": 98
+ },
+ {
+  "message": "What is the capital of Italy?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 99
+ },
+ {
+  "message": "What does CSS stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 100
+ },
+ {
+  "message": "define an algorithm in one sentence.",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 101
+ },
+ {
+  "message": "Compare and analyze the trade-offs of Redis versus Memcached for a session store, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 102
+ },
+ {
+  "user_id": "p7",
+  "message": "My name is Vikram.",
+  "complexity": "simple",
+  "kind": "fact",
+  "id": 103
+ },
+ {
+  "message": "Who wrote The Iliad?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 104
+ },
+ {
+  "message": "How many milliliters are in a liter?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 105
+ },
+ {
+  "message": "How many quarters are in a dollar?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 106
+ },
+ {
+  "message": "Define DNA in one sentence?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 107
+ },
+ {
+  "message": "What is 9 times 14?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 108
+ },
+ {
+  "message": "Summarize inflation and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 109
+ },
+ {
+  "message": "What is the capital of Iran?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 110
+ },
+ {
+  "message": "Design the architecture for a mobile app backend using REST or GraphQL, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 111
+ },
+ {
+  "message": "Explain machine learning bias with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 112
+ },
+ {
+  "message": "Who wrote Pride and Prejudice?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 113
+ },
+ {
+  "message": "Summarize supply chains and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 114
+ },
+ {
+  "message": "Write a short explanation of microservices and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 115
+ },
+ {
+  "message": "What is the capital of Egypt?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 116
+ },
+ {
+  "message": "Who wrote Walden?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 117
+ },
+ {
+  "message": "Define an ecosystem in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 118
+ },
+ {
+  "message": "design the architecture for a mobile app backend using rest or graphql, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "u04",
+  "id": 119
+ },
+ {
+  "message": "How many weeks are in a year?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 120
+ },
+ {
+  "message": "How many cents are in a dollar?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u06",
+  "id": 121
+ },
+ {
+  "message": "How many hours are in a week?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 122
+ },
+ {
+  "message": "Is 49 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 123
+ },
+ {
+  "message": "Summarize Bayes' theorem and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p5",
+  "id": 124
+ },
+ {
+  "message": "What is the capital of Yemen?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 125
+ },
+ {
+  "message": "Summarize continuous integration and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 126
+ },
+ {
+  "message": "What is the capital of Cuba?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 127
+ },
+ {
+  "message": "What does HTTP stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p5",
+  "id": 128
+ },
+ {
+  "message": "Design the architecture for an event-driven payments system using Kafka or RabbitMQ, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 129
+ },
+ {
+  "message": "What does LAN stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 130
+ },
+ {
+  "message": "Please what is the capital of Peru?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 131
+ },
+ {
+  "message": "Is 29 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 132
+ },
+ {
+  "message": "Define supply and demand in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 133
+ },
+ {
+  "message": "Please what is the capital of Iran?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p5",
+  "id": 134
+ },
+ {
+  "message": "What is the capital of Chad?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u08",
+  "id": 135
+ },
+ {
+  "message": "Write a short explanation of photosynthesis and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u06",
+  "id": 136
+ },
+ {
+  "message": "What is the capital of Oman?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 137
+ },
+ {
+  "message": "Write a short explanation of caching and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 138
+ },
+ {
+  "message": "Hey, How many milliliters are in a liter?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 139
+ },
+ {
+  "message": "Please what is the capital of Chad?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p6",
+  "id": 140
+ },
+ {
+  "message": "Who wrote 1984? Thanks!",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p5",
+  "id": 141
+ },
+ {
+  "message": "Summarize recursion and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 142
+ },
+ {
+  "message": "Summarize the greenhouse effect and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 143
+ },
+ {
+  "message": "What does USB stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 144
+ },
+ {
+  "message": "Design the architecture for a 200-engineer company using a monorepo or polyrepo, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u05",
+  "id": 145
+ },
+ {
+  "message": "Summarize public-key cryptography and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 146
+ },
+ {
+  "message": "Explain the scientific method with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 147
+ },
+ {
+  "message": "Is 37 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 148
+ },
+ {
+  "message": "Define latency in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 149
+ },
+ {
+  "message": "Write a short explanation of inflation and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 150
+ },
+ {
+  "message": "Who wrote Frankenstein?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 151
+ },
+ {
+  "message": "Please how many weeks are in a year?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p5",
+  "id": 152
+ },
+ {
+  "message": "How many centimeters are in a meter?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u03",
+  "id": 153
+ },
+ {
+  "message": "Compare and analyze the trade-offs of microservices versus a monolith for a five-person startup, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 154
+ },
+ {
+  "message": "What does HTML stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 155
+ },
+ {
+  "message": "Define GDP in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 156
+ },
+ {
+  "message": "Hey, What is the capital of Oman?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 157
+ },
+ {
+  "message": "Write a short explanation of the CAP theorem and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p7",
+  "id": 158
+ },
+ {
+  "message": "Write a short explanation of opportunity cost and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 159
+ },
+ {
+  "message": "Compare and analyze the trade-offs of a monorepo versus polyrepo for a 200-engineer company, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 160
+ },
+ {
+  "message": "What is the capital of Sweden?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u06",
+  "id": 161
+ },
+ {
+  "message": "Write a short explanation of supply chains and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 162
+ },
+ {
+  "message": "Please summarize version control and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 163
+ },
+ {
+  "message": "Design the architecture for tabular churn prediction using gradient boosting or deep learning, evaluate the trade-offs, and justify your strategy step by step. Thanks!",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "p2",
+  "id": 164
+ },
+ {
+  "message": "How many ounces are in a pound?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u06",
+  "id": 165
+ },
+ {
+  "message": "what does usb stand for?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p4",
+  "id": 166
+ },
+ {
+  "message": "Summarize plate tectonics and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 167
+ },
+ {
+  "message": "What does SSD stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 168
+ },
+ {
+  "message": "Summarize garbage collection and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 169
+ },
+ {
+  "message": "Explain a hash map with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 170
+ },
+ {
+  "message": "Please who wrote The Iliad?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u10",
+  "id": 171
+ },
+ {
+  "message": "Write a short explanation of continuous integration and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u05",
+  "id": 172
+ },
+ {
+  "message": "Explain the greenhouse effect with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u07",
+  "id": 173
+ },
+ {
+  "message": "Define a database index in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 174
+ },
+ {
+  "message": "Write a short explanation of the Doppler effect and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 175
+ },
+ {
+  "message": "Compare and analyze the trade-offs of a monorepo versus polyrepo for a 200-engineer company, step by step, and recommend one?",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "u03",
+  "id": 176
+ },
+ {
+  "message": "What does UNESCO stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 177
+ },
+ {
+  "message": "What does GDP stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 178
+ },
+ {
+  "message": "What is the capital of Chile?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 179
+ },
+ {
+  "message": "Hey, What does LAN stand for?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 180
+ },
+ {
+  "message": "Write a short explanation of the scientific method and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 181
+ },
+ {
+  "message": "Write a short explanation of photosynthesis and give an example. Thanks!",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 182
+ },
+ {
+  "message": "Who wrote Frankenstein?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u08",
+  "id": 183
+ },
+ {
+  "message": "Who wrote The Hobbit?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 184
+ },
+ {
+  "message": "What is the capital of Malta?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 185
+ },
+ {
+  "message": "Summarize opportunity cost and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 186
+ },
+ {
+  "message": "Who wrote Ulysses?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u06",
+  "id": 187
+ },
+ {
+  "message": "is 37 a prime number?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 188
+ },
+ {
+  "message": "Write a short explanation of version control and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 189
+ },
+ {
+  "message": "Hey, Who wrote The Hobbit?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u07",
+  "id": 190
+ },
+ {
+  "user_id": "p3",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Amit",
+  "id": 191
+ },
+ {
+  "message": "write a short explanation of version control and give an example.",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "u03",
+  "id": 192
+ },
+ {
+  "message": "Is 33 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 193
+ },
+ {
+  "user_id": "p5",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "penicillin",
+  "id": 194
+ },
+ {
+  "message": "Summarize neural networks and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 195
+ },
+ {
+  "message": "explain the scientific method with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 196
+ },
+ {
+  "message": "Define machine learning in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 197
+ },
+ {
+  "message": "What is the capital of Togo?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 198
+ },
+ {
+  "message": "Summarize the CAP theorem and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u07",
+  "id": 199
+ },
+ {
+  "user_id": "p3",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "pollen",
+  "id": 200
+ },
+ {
+  "message": "Explain a REST API with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 201
+ },
+ {
+  "message": "Define a firewall in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p8",
+  "id": 202
+ },
+ {
+  "message": "Design the architecture for a bursty ML inference workload using Kubernetes or serverless, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u09",
+  "id": 203
+ },
+ {
+  "user_id": "p4",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Neha",
+  "id": 204
+ },
+ {
+  "message": "What is 7 times 8?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 205
+ },
+ {
+  "user_id": "p8",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "latex",
+  "id": 206
+ },
+ {
+  "message": "Design the architecture for a social network using Postgres or MongoDB, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 207
+ },
+ {
+  "message": "How many feet are in a mile?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 208
+ },
+ {
+  "message": "Compare and analyze the trade-offs of gradient boosting versus deep learning for tabular churn prediction, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u06",
+  "id": 209
+ },
+ {
+  "message": "What is 18 times 7?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 210
+ },
+ {
+  "message": "What is the capital of Zambia?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u10",
+  "id": 211
+ },
+ {
+  "message": "How many pints are in a gallon?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u05",
+  "id": 212
+ },
+ {
+  "message": "Define encryption in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u04",
+  "id": 213
+ },
+ {
+  "message": "Define an API in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 214
+ },
+ {
+  "message": "Hey, What is 12 times 13?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 215
+ },
+ {
+  "message": "Define an algorithm in one sentence. Thanks!",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p7",
+  "id": 216
+ },
+ {
+  "message": "Design the architecture for an event-driven payments system using Kafka or RabbitMQ, evaluate the trade-offs, and justify your strategy step by step. Thanks!",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "u05",
+  "id": 217
+ },
+ {
+  "user_id": "p7",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Vikram",
+  "id": 218
+ },
+ {
+  "message": "Who wrote Emma?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p5",
+  "id": 219
+ },
+ {
+  "message": "Hey, What does USB stand for?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u03",
+  "id": 220
+ },
+ {
+  "message": "Who wrote Dracula?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 221
+ },
+ {
+  "message": "Write a short explanation of the French Revolution and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 222
+ },
+ {
+  "message": "Define cloud computing in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 223
+ },
+ {
+  "message": "Please design the architecture for a session store using Redis or Memcached, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 224
+ },
+ {
+  "message": "Hey, Who wrote The Iliad?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u09",
+  "id": 225
+ },
+ {
+  "message": "What is the capital of India?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 226
+ },
+ {
+  "user_id": "p7",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "gardening",
+  "id": 227
+ },
+ {
+  "message": "Hey, Define GDP in one sentence.",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p8",
+  "id": 228
+ },
+ {
+  "message": "Define a black hole in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 229
+ },
+ {
+  "message": "Explain continuous integration with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 230
+ },
+ {
+  "message": "What does OCR stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 231
+ },
+ {
+  "message": "how many milliliters are in a liter?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p4",
+  "id": 232
+ },
+ {
+  "message": "Who wrote Hamlet?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 233
+ },
+ {
+  "message": "Summarize photosynthesis and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u07",
+  "id": 234
+ },
+ {
+  "user_id": "p1",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "peanuts",
+  "id": 235
+ },
+ {
+  "message": "Is 49 a prime number?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u05",
+  "id": 236
+ },
+ {
+  "user_id": "p1",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "cricket",
+  "id": 237
+ },
+ {
+  "message": "How many milliliters are in a liter?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u04",
+  "id": 238
+ },
+ {
+  "message": "Summarize the French Revolution and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p6",
+  "id": 239
+ },
+ {
+  "message": "Hey, Define a black hole in one sentence.",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p8",
+  "id": 240
+ },
+ {
+  "message": "Who wrote Les Miserables?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 241
+ },
+ {
+  "message": "Write a short explanation of garbage collection and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 242
+ },
+ {
+  "message": "What is 8 times 12?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 243
+ },
+ {
+  "message": "Design the architecture for a social network using Postgres or MongoDB, evaluate the trade-offs, and justify your strategy step by step. Thanks!",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 244
+ },
+ {
+  "message": "Compare and analyze the trade-offs of REST versus GraphQL for a mobile app backend, step by step, and recommend one?",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "p7",
+  "id": 245
+ },
+ {
+  "message": "Write a short explanation of the greenhouse effect and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 246
+ },
+ {
+  "user_id": "p4",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "dust",
+  "id": 247
+ },
+ {
+  "message": "Is 17 a prime number? Thanks!",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 248
+ },
+ {
+  "user_id": "p5",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "cooking",
+  "id": 249
+ },
+ {
+  "user_id": "p2",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Priya",
+  "id": 250
+ },
+ {
+  "user_id": "p1",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Rahul",
+  "id": 251
+ },
+ {
+  "message": "Summarize machine learning bias and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 252
+ },
+ {
+  "message": "Define osmosis in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 253
+ },
+ {
+  "message": "How many grams are in a kilogram?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 254
+ },
+ {
+  "message": "Hey, What is the capital of India?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 255
+ },
+ {
+  "message": "Summarize the scientific method and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 256
+ },
+ {
+  "message": "Design the architecture for fraud detection using batch or stream processing, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u05",
+  "id": 257
+ },
+ {
+  "user_id": "p3",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "painting",
+  "id": 258
+ },
+ {
+  "message": "Please design the architecture for a bursty ML inference workload using Kubernetes or serverless, evaluate the trade-offs, and justify your strategy step by step.",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "p1",
+  "id": 259
+ },
+ {
+  "user_id": "p5",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Karan",
+  "id": 260
+ },
+ {
+  "message": "What does SQL stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 261
+ },
+ {
+  "message": "Summarize the CAP theorem and explain how it works, with an example?",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 262
+ },
+ {
+  "message": "What does PDF stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p3",
+  "id": 263
+ },
+ {
+  "user_id": "p8",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "cycling",
+  "id": 264
+ },
+ {
+  "message": "Please what is the capital of Togo?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 265
+ },
+ {
+  "user_id": "p6",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "eggs",
+  "id": 266
+ },
+ {
+  "user_id": "p2",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "shellfish",
+  "id": 267
+ },
+ {
+  "message": "Is 57 a prime number?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u05",
+  "id": 268
+ },
+ {
+  "message": "Compare and analyze the trade-offs of Postgres versus MongoDB for a social network, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 269
+ },
+ {
+  "message": "Please summarize machine learning bias and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "p7",
+  "id": 270
+ },
+ {
+  "message": "What does RAM stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 271
+ },
+ {
+  "message": "Explain DNS with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p1",
+  "id": 272
+ },
+ {
+  "message": "Hey, Is 57 a prime number?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p2",
+  "id": 273
+ },
+ {
+  "message": "Summarize opportunity cost and explain how it works, with an example?",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "p7",
+  "id": 274
+ },
+ {
+  "user_id": "p7",
+  "message": "What am I allergic to?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "soy",
+  "id": 275
+ },
+ {
+  "message": "who wrote ulysses?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u04",
+  "id": 276
+ },
+ {
+  "message": "Summarize photosynthesis and explain how it works, with an example?",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "u08",
+  "id": 277
+ },
+ {
+  "message": "Write a short explanation of public-key cryptography and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 278
+ },
+ {
+  "message": "Hey, Summarize opportunity cost and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "p7",
+  "id": 279
+ },
+ {
+  "message": "What does JSON stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p5",
+  "id": 280
+ },
+ {
+  "message": "Please what is 7 times 8?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 281
+ },
+ {
+  "message": "Design the architecture for fraud detection using batch or stream processing, evaluate the trade-offs, and justify your strategy step by step?",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 282
+ },
+ {
+  "message": "What is the capital of Kenya?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 283
+ },
+ {
+  "message": "Define a compiler in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p4",
+  "id": 284
+ },
+ {
+  "user_id": "p6",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Sneha",
+  "id": 285
+ },
+ {
+  "message": "Compare and analyze the trade-offs of batch versus stream processing for fraud detection, step by step, and recommend one.",
+  "complexity": "complex",
+  "kind": "fresh",
+  "user_id": "u10",
+  "id": 286
+ },
+ {
+  "message": "What is the capital of Haiti?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 287
+ },
+ {
+  "message": "Summarize DNS and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 288
+ },
+ {
+  "message": "Please write a short explanation of a REST API and give an example.",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "p2",
+  "id": 289
+ },
+ {
+  "message": "Summarize DNS and explain how it works, with an example. Thanks!",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "p3",
+  "id": 290
+ },
+ {
+  "message": "Explain recursion with an example and list two common pitfalls.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p7",
+  "id": 291
+ },
+ {
+  "message": "Please define an API in one sentence.",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u06",
+  "id": 292
+ },
+ {
+  "message": "Define gravity in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u06",
+  "id": 293
+ },
+ {
+  "message": "Hey, Summarize opportunity cost and explain how it works, with an example.",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 294
+ },
+ {
+  "user_id": "p2",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "chess",
+  "id": 295
+ },
+ {
+  "message": "Define a hash table in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 296
+ },
+ {
+  "user_id": "p8",
+  "message": "What is my name?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "Anjali",
+  "id": 297
+ },
+ {
+  "message": "Please how many feet are in a mile?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u04",
+  "id": 298
+ },
+ {
+  "message": "What does TCP stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u03",
+  "id": 299
+ },
+ {
+  "message": "What does VPN stand for?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u02",
+  "id": 300
+ },
+ {
+  "message": "Compare and analyze the trade-offs of batch versus stream processing for fraud detection, step by step, and recommend one?",
+  "complexity": "complex",
+  "kind": "dup",
+  "user_id": "u01",
+  "id": 301
+ },
+ {
+  "message": "What is the capital of Egypt?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p8",
+  "id": 302
+ },
+ {
+  "message": "How many seconds are in a hour?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p5",
+  "id": 303
+ },
+ {
+  "message": "What is the capital of Haiti? Thanks!",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u10",
+  "id": 304
+ },
+ {
+  "user_id": "p6",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "photography",
+  "id": 305
+ },
+ {
+  "message": "Hey, Define a hash table in one sentence.",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p8",
+  "id": 306
+ },
+ {
+  "message": "Write a short explanation of the greenhouse effect and give an example. Thanks!",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "p8",
+  "id": 307
+ },
+ {
+  "user_id": "p4",
+  "message": "What do I love?",
+  "complexity": "simple",
+  "kind": "recall",
+  "expected": "hiking",
+  "id": 308
+ },
+ {
+  "message": "What is the capital of France?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 309
+ },
+ {
+  "message": "Hey, What is the capital of France?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 310
+ },
+ {
+  "message": "Define an eclipse in one sentence.",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u01",
+  "id": 311
+ },
+ {
+  "message": "What is the capital of Brazil?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p4",
+  "id": 312
+ },
+ {
+  "message": "Summarize opportunity cost and explain how it works, with an example?",
+  "complexity": "medium",
+  "kind": "dup",
+  "user_id": "u05",
+  "id": 313
+ },
+ {
+  "message": "Write a short explanation of compound interest and give an example.",
+  "complexity": "medium",
+  "kind": "fresh",
+  "user_id": "p2",
+  "id": 314
+ },
+ {
+  "message": "Hey, Define an eclipse in one sentence.",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p7",
+  "id": 315
+ },
+ {
+  "message": "what does vpn stand for?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u02",
+  "id": 316
+ },
+ {
+  "message": "What is the capital of Norway?",
+  "complexity": "simple",
+  "kind": "fresh",
+  "user_id": "u10",
+  "id": 317
+ },
+ {
+  "message": "what does http stand for?",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "p1",
+  "id": 318
+ },
+ {
+  "message": "Who wrote Dracula? Thanks!",
+  "complexity": "simple",
+  "kind": "dup",
+  "user_id": "u06",
+  "id": 319
+ }
+]

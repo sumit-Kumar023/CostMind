@@ -1,0 +1,82 @@
+# Render Blueprint: New + -> Blueprint -> pick this repo.
+# Validate locally with:  render blueprints validate
+# Free-tier facts (verified Oct 2026): 512 MB RAM / 0.1 CPU, spins down after 15 min idle (~1 min to wake),
+# 750 free instance hours per workspace per month (shared with your other free services), no persistent disk.
+services:
+  # ---------------------------------------------------------------- API
+  - type: web
+    name: costmind-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: APP_ENV
+        value: production
+      # models (any LiteLLM model string works)
+      - key: CHEAP_MODEL
+        value: gpt-4o-mini
+      - key: MID_MODEL
+        value: gpt-4o-mini
+      - key: PREMIUM_MODEL
+        value: gpt-4o
+      - key: EMBEDDING_PROVIDER
+        value: auto
+      # spend protection (public URL + your API credit = set these deliberately)
+      - key: MAX_USD_PER_USER_PER_DAY
+        value: "0.25"
+      - key: MAX_USD_GLOBAL_PER_DAY
+        value: "2.0"
+      # ephemeral on the free tier: analytics history resets on every redeploy/restart
+      - key: ANALYTICS_DB
+        value: /tmp/costmind.db
+      # Render generates a random key; the dashboard reads the same value below
+      - key: API_KEY
+        generateValue: true
+      # secrets you paste in the dashboard when the Blueprint is created
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
+      - key: REDIS_URL
+        fromService:
+          type: keyvalue
+          name: costmind-redis
+          property: connectionString
+
+  # ---------------------------------------------------------------- Dashboard
+  - type: web
+    name: costmind-dashboard
+    runtime: python
+    plan: free
+    buildCommand: pip install -r dashboard/requirements.txt
+    startCommand: streamlit run dashboard/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      # public URL of the API service, e.g. https://costmind-api.onrender.com
+      - key: API_URL
+        sync: false
+      - key: API_KEY
+        fromService:
+          type: web
+          name: costmind-api
+          envVarKey: API_KEY
+      # set to "false" to stop public visitors from spending your credit via the sidebar chat box
+      - key: ENABLE_LIVE_CHAT
+        value: "true"
+
+# ---------------------------------------------------------------- Redis-compatible store (free: 25 MB, no persistence)
+  - type: keyvalue
+    name: costmind-redis
+    plan: free
+    ipAllowList: []   # internal-only: reachable by your services, not the public internet

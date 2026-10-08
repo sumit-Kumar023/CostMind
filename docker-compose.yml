@@ -1,0 +1,38 @@
+# Infra only:        docker compose up -d
+# Whole stack too:   docker compose --profile app up --build   (needs .env with an LLM key)
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    restart: unless-stopped
+    ports: ["6333:6333"]
+    volumes: ["qdrant_data:/qdrant/storage"]
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports: ["6380:6379"]
+    volumes: ["redis_data:/data"]
+
+  api:
+    profiles: ["app"]
+    build: .
+    env_file: .env
+    environment:
+      QDRANT_URL: http://qdrant:6333
+      REDIS_URL: redis://redis:6379
+    ports: ["8000:8000"]
+    depends_on: [qdrant, redis]
+
+  dashboard:
+    profiles: ["app"]
+    build:
+      context: .
+      dockerfile: dashboard/Dockerfile
+    environment:
+      API_URL: http://api:8000
+      API_KEY: ${API_KEY:-}
+    ports: ["8501:8501"]
+    depends_on: [api]
+
+volumes:
+  qdrant_data:
+  redis_data:
