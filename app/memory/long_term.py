@@ -15,7 +15,7 @@ from app.memory.scoring import estimate_importance, relevance_score
 
 
 @dataclass
-class Memory: 
+class Memory:
     """A recalled memory with its component scores."""
 
     id: str

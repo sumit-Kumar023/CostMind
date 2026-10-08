@@ -1,4 +1,4 @@
-﻿"""Memory-aware routing: answer personal recall questions from memory without calling an LLM."""
+"""Memory-aware routing: answer personal recall questions from memory without calling an LLM."""
 import re
 
 _RECALL = re.compile(r"^\s*(what|what's|whats|which|who|where|when|how (old|many|much)|do i|am i|did i|remind me|tell me)\b", re.I)

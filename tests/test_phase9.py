@@ -76,3 +76,20 @@ def test_threshold_tuner_math_and_separation():
     r = analyze(HashEmbedder().embed)
     assert set(r) == {"correct_min", "correct_avg", "wrong_max", "separable", "suggested"}
     assert r["correct_avg"] > 0
+
+
+@pytest.mark.parametrize("q,expected", [
+    ("What is my name?", True), ("What's my name?", True), ("What do I love?", True), ("What am I allergic to?", True),
+    ("What is my brother's name?", False), ("What is my dog's name?", False), ("What does my friend love?", False),
+    ("Who is my boss?", False), ("What is her name, I mean my wife's?", False), ("What is DNS?", False),
+])
+def test_recall_question_ignores_questions_about_other_people(q, expected):
+    from app.memory_router import is_recall_question
+    assert is_recall_question(q) is expected
+
+
+def test_diagnose_recall_runs_offline(capsys):
+    from scripts.diagnose_recall import main
+    r = main(["--mock"])
+    assert r["total"] == 24 and 0 <= r["correct"] <= 24
+    assert "RECALL DIAGNOSIS" in capsys.readouterr().out

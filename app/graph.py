@@ -42,6 +42,7 @@ class State(TypedDict, total=False):
     similarity: float
     saved_cost: float
     saved_tokens: int
+    timings: dict
     last_prompt_tokens: int
     last_completion_tokens: int
 
@@ -147,11 +148,22 @@ class Agent:
                              st["cost"], st["prompt_tokens"])
         return {"memory_result": self.memory.record_turn(st["user_id"], st["message"], st["answer"])}
 
+    @staticmethod
+    def _timed(name: str, fn):
+        """Wrap a graph node so per-stage wall time (ms) accumulates in state['timings'] (generate may run several times)."""
+        def run(st: State) -> State:
+            t0 = time.perf_counter()
+            out = fn(st) or {}
+            prev = dict(st.get("timings", {}))
+            prev[name] = round(prev.get(name, 0.0) + (time.perf_counter() - t0) * 1000, 1)
+            return {**out, "timings": prev}
+        return run
+
     def _build(self):
         g = StateGraph(State)
         for name, fn in [("retrieve", self._retrieve), ("shortcut", self._shortcut), ("finish_shortcut", self._finish_shortcut), ("classify", self._classify), ("generate", self._generate),
                          ("escalate", self._escalate), ("finish", self._finish)]:
-            g.add_node(name, fn)
+            g.add_node(name, self._timed(name, fn))
         g.add_edge(START, "retrieve")
         g.add_edge("retrieve", "shortcut")
         g.add_conditional_edges("shortcut", self._route_shortcut, {"classify": "classify", "finish_shortcut": "finish_shortcut"})
@@ -170,7 +182,7 @@ class Agent:
         st = self.graph.invoke({
             "user_id": user_id, "message": message, "cost": 0.0, "prompt_tokens": 0, "completion_tokens": 0,
             "escalations": 0, "attempts": [], "path": [], "shortcut": None, "dropped_context": 0,
-            "saved_cost": 0.0, "saved_tokens": 0,
+            "saved_cost": 0.0, "saved_tokens": 0, "timings": {},
         })
         sc = st.get("shortcut")
         if sc is None and st["confidence"] is None:
@@ -186,7 +198,7 @@ class Agent:
             "similarity": round(st.get("similarity", 0.0), 3),
             "retrieval_k": st["k"], "retrieved_memories": len(st["context"]["recalled"]), "dropped_context_items": st["dropped_context"],
             "budget_remaining_usd": round(self.budget.remaining(user_id), 6),
-            "memory": st["memory_result"], "attempts": st["attempts"],
+            "memory": st["memory_result"], "attempts": st["attempts"], "timings": st["timings"],
         }
         if self.analytics is not None:
             self._log(user_id, message, st, sc, out)
