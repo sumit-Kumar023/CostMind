@@ -1,5 +1,8 @@
 # Render Blueprint: New + -> Blueprint -> pick this repo.
 # Validate locally with:  render blueprints validate
+# REGION: everything is pinned to Frankfurt. A service's region is permanent once created, and services in different
+# regions cannot use Render's private network, so the API, dashboard and Redis MUST share a region. Create your
+# Qdrant Cloud cluster in the matching AWS region (eu-central-1) so database calls stay fast.
 # Free-tier facts (verified Oct 2026): 512 MB RAM / 0.1 CPU, spins down after 15 min idle (~1 min to wake),
 # 750 free instance hours per workspace per month (shared with your other free services), no persistent disk.
 services:
@@ -8,6 +11,7 @@ services:
     name: costmind-api
     runtime: python
     plan: free
+    region: frankfurt
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
@@ -57,6 +61,7 @@ services:
     name: costmind-dashboard
     runtime: python
     plan: free
+    region: frankfurt
     buildCommand: pip install -r dashboard/requirements.txt
     startCommand: streamlit run dashboard/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
     autoDeploy: true
@@ -79,4 +84,5 @@ services:
   - type: keyvalue
     name: costmind-redis
     plan: free
+    region: frankfurt
     ipAllowList: []   # internal-only: reachable by your services, not the public internet
